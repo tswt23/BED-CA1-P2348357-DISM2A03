@@ -1,0 +1,20 @@
+{
+  "name": "bed-ca1-p2348357-dism2a03",
+  "version": "1.0.0",
+  "description": "You are required to build your folder structures for your project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init_tables": "node src/configs/initTables.js",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "Tiffany",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.9.7",
+    "nodemon": "^3.1.1"
+  }
+}
